@@ -6,7 +6,7 @@ interface Props {
 export const CalendarDay = ({ streakType, images }: Props) => {
   return (
     <div>
-      {images && <img src={`./images/${images[streakType]}`} />}
+      {images && <img src={`../src/assets/${images[streakType]}`} style={{ maxWidth: "32px"}} />}
     </div>
   );
 }

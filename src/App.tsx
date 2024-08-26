@@ -111,6 +111,10 @@ function App() {
       },
       {
         streak_type: "none",
+        day: 26,
+      },
+      {
+        streak_type: "none",
         day: 27
       },
       {
@@ -119,10 +123,10 @@ function App() {
       },
     ],
     images: {
-      on_fire: "on_fire.jpg",
-      almost_on_fire: "almost_on_fire.jpg",
-      freeze: "freeze.jpg",
-      none: "none.jpg"
+      on_fire: "on_fire.png",
+      almost_on_fire: "almost_on_fire.png",
+      freeze: "freeze.png",
+      none: "none.png"
     }
   }
 
